@@ -1,0 +1,451 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-26 21:58:03
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-11-01 15:15:50
+*/
+@import url('base.css');
+/* <!-- header开始 --> */
+header{
+	width: 100%;
+	height: 72px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+.hd-xiao{
+	width:1190px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	padding: 20px 0;
+	justify-content: space-between;
+}
+.hd-left{
+	width: 170px;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.icon{
+	font-family:"iconfont";
+	font-style:normal;
+	font-size: 30px;
+	color: #146ec4;
+}
+.hd-zi{
+	font-size: 30px;
+	color: #146ec4;
+	line-height: 30px;
+}
+
+.hd-right{
+	height: 30px;
+	display: flex;
+
+}
+.hd-xiaoge{
+	width: 100px;
+	height: 100%;
+	border-bottom: 2px solid transparent;
+	display: flex;
+	padding: 3px 0;
+	justify-content: center;
+}
+
+
+.hd-xiaoge a{
+	width: 100%;
+	height: 20px;
+	border-right:1px solid #CCCCCC;
+	font-size:16px;
+	color: #333333;
+	display: flex;
+	justify-content: center;
+}
+
+.hd-xiaoge a:last-child{
+	border-right: 0;
+}
+
+.hd-xiaoge:nth-child(4){
+	border-bottom: 2px solid #146ec4; 
+}
+
+.hd-xiaoge a:hover{
+   color: #146ec4;
+}
+.hd-xiaoge:hover{
+	border-bottom: 2px solid #146ec4; 
+}
+/* <!-- header结束 --> */
+/* <!-- banner开始 --> */
+.banner{
+	width: 100%;
+	height: 250px;
+	position: relative;
+}
+.bn-dg{
+	width: 100%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.bn-dg a img{
+	width: 100%;
+	height: 100%;
+}
+
+/* <!-- banner结束 --> */
+/* nav开始 */
+.nav{
+	background: #F0F0F0;
+}
+.nav-sh{
+	width: 1190px;
+	height: 40px;
+	background: #F0F0F0;
+	display: flex;
+	margin: 0 auto;
+	justify-content: flex-end;
+}
+.n-sh-xiaobox{
+	width: auto;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.n-sh-zi{
+	display: block;
+	height: 100%;
+	line-height: 40px;
+	font-size: 14px;
+	color: #666;
+	padding: 0 5px;
+}
+.n-sh-zi:hover{
+	color: #0756B3;
+}
+.n-sh-fh{
+	height: 100%;
+	line-height: 40px;
+	padding: 0 5px;
+	font-size: 14px;
+	color: #666;
+}
+
+
+
+/* nav结束 */
+
+.jiange{
+	width: 100%;
+	height: 22px;
+}
+
+/* 内容开始 */
+.zhuti{
+	width: 1190px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 80px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+}
+
+.zhuti-zi{
+	height: auto;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.zht-bj{
+	width: 75%;
+	height: 100%;
+	float: right;
+	/* background: pink; */
+}
+
+.bt{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+   /*  background: green;
+ */
+}
+.wm-shang{
+	width: 100%;
+	height: 20px;
+	font-size: 18px;
+	color: #939393;
+	display: flex;
+	justify-content: center;
+}
+
+.wm-xia{
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items:center ;
+    flex-wrap: wrap;
+}
+
+.wm-zibox{
+	width: auto;
+	height: 30px;
+	font-size: 18px;
+	color: #000;
+	font-weight: 200;
+	text-align: center;
+	line-height: 26px;
+	margin: 0 30px;
+}
+.xwen-box{
+	width: 100%;
+	height: 30px;
+	/* background: skyblue; */
+	border-bottom: 1px solid #D5D5D5;
+	display: flex;
+	justify-content: space-between;
+}
+.shijian{
+	color: #666;
+	font-size: 12px;
+	padding: 8px 0;
+
+}
+
+.icon2-1{
+    display: block;
+    font-family:"iconfont";
+    font-style:normal;
+    font-size: 20px;
+    color: #666;
+    margin: 0 10px;
+    float: left;
+    line-height: 30px;
+
+}
+.shangzi{
+	width: 100%;
+	font-size: 14px;
+	color: #666;
+	 margin-top: 20px;
+	 text-indent: 2em;
+	 line-height: 30px;
+}
+.shangzi:first-child{
+	margin-top: 60px;
+}
+.zht-tu2{
+	padding-top: 20px;
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.tu-xiao{
+	width: 49%;
+	height: 100%;
+
+}
+
+.tu-xiao img{
+	width: 100%;
+	height: 100%;
+	float: left;
+	
+}
+
+
+
+/* 定位开始 */
+.dingwei-box{
+	position: absolute;
+	left: 0px;
+    top: -108px;
+	width: 186px;
+	height: auto;
+	background: pink;
+	z-index: 999;
+
+}
+.dingwei{
+	width: 186px;
+	height: 86px;
+	background: #0756B3;
+	display: flex;
+	flex-wrap: wrap;
+}
+.dingwei-sh{
+	width: 100%;
+	height: 46px;
+	font-size: 20px;
+	color: #fff;
+	line-height:60px;
+	text-align: center; 
+
+}
+.dingwei-xia{
+	width: 100%;
+	height: 40px;
+	font-size: 16px;
+	color: #ccc;
+	line-height:30px;
+	text-align: center;
+}
+.dw-xia{
+	width: 100%;
+	height: auto;
+	background: red;
+}
+.dw-dg{
+	width: 100%;
+	height: 50px;
+	float: left;
+}
+.dw-dg-bj{
+	display: block;
+    width: 100%;
+	height: 100%;
+	background: #EAEBEE;
+	font-size: 16px;
+	color: #666;
+	line-height: 50px;
+	text-align: center;
+}
+.dw-dg-bj:hover{
+	background:#D7C49B;
+	color: #fff; 
+}
+.bj{
+	background:#D7C49B;
+	color: #fff;
+}
+
+
+/* 定位结束 */
+
+/* 内容结束 */
+
+
+/* <!-- nav开始 --> */
+nav{
+	width: 100%;
+	height: 40px;
+	background: #0756B3;
+	display: flex;
+	padding: 10px 80px;
+	justify-content: center;
+}
+.nav-lb{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+
+}
+.n-lb-dg{
+	width: 200px;
+	border-right:1px solid #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.n-lb-dg:last-child{
+	border-right: 0;
+}
+.n-lb-dg a{
+	font-size: 14px;
+	color: #fff;
+	line-height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* nav结束 */
+
+
+
+
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 90px;
+}
+.footer-ziyi{
+	width: 100%;
+	height: 30px;
+	font-size: 12px;
+	color: #666;
+	padding: 0px 380px;
+	justify-content: center;
+	
+}
+.ft-zi1{
+	width: 100%;
+	height: 100%;
+	font-size: 12px;
+	color: #666;
+	display: flex;
+	justify-content: space-between;
+}
+.ft-1-left{
+	font-size: 12px;
+	color: #666;
+	line-height: 30px;
+}
+.ft-1-m{
+	font-size: 12px;
+	color: #666;
+	line-height: 30px;
+
+}
+.footer-zier{
+	width: 100%;
+	height: 60px;
+	font-size: 12px;
+	color: #666;
+	padding: 20px 555px;
+	justify-content: center
+}
+
+
+.ft-zi2{
+	width: 100%;
+	height: 100%;
+	font-size: 12px;
+	color: #666;
+	display: flex;
+	justify-content: space-between;
+}
+.ft-tu{
+	width: 20px;
+	height: 20px;
+}
+.ft-tu img{
+	width:20px;
+	height: 100%;
+	float: left;
+	
+}
+.ft-zi2-r{
+	font-size: 12px;
+	color: #939393;
+	line-height: 20px;
+}
+
+/* 、底部结束 */
+
